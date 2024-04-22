@@ -16,3 +16,4 @@ The codebase was obtained from a customer where the last working date-stamp was 
 
 has been added to resolve the multiple definitions that should be fixed, when there is time. However, other issues still remain that will be addressed when there is time away from robotics development itself.
 
+Note that there is dummy `hello.c` file that is added as a source to the makefile.
