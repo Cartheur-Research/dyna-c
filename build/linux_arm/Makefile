@@ -56,6 +56,7 @@ SOURCES  = src/group_bulk_read.c \
            src/protocol1_packet_handler.c \
            src/protocol2_packet_handler.c \
            src/port_handler_linux.c \
+		   src/hello.c \
 
 
 OBJECTS=$(addsuffix .o,$(addprefix $(DIR_OBJS)/,$(basename $(notdir $(SOURCES)))))
