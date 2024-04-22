@@ -13,6 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: navigate
+    - name: navigate-make
       working-directory: ./build/linux64
       run: make
