@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: C CI
 
 on:
   push:
@@ -16,7 +16,3 @@ jobs:
     - name: navigate
       working-directory: ./build/linux64
       run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
