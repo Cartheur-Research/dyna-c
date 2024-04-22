@@ -4,7 +4,7 @@ The clean version for the Robotis motor control in Linux.
 
 ### How to use this repo
 
-Inside the `build` folder are the makefiles for `arm`, `x86`, and `x64` versions of Linux. Ensure that your system has the build tools installedddd:
+Inside the `build` folder are the makefiles for `arm`, `x86`, and `x64` versions of Linux. Ensure that your system has the build tools installed:
 
 `apt install build-essential`
 
