@@ -1,5 +1,6 @@
-#include <iostream>
+#include<stdio.h>
 
-void hello() {
-    std::cout << "Hello from the dyna-c libaray!" << std::endl;
+int main(void) {
+    printf("Hello from the dyna-c libaray!\n");
+    return 0;
 }
